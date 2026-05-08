@@ -1,21 +1,29 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-class MyApp extends StatelessWidget {
-@override
-Widget build(BuildContext context) {
-return Scaffold(
-appBar: AppBar(
-title: Text('ExampleApp'),
-),
-body: Center(
-child: Text(
-'10',
-style: TextStyle(
-fontSize: 30
-),
-),
-)
-);
+void main() {
+  runApp(const MyApp());
 }
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Example App'),
+        ),
+        body: const Center(
+          child: Text(
+            '10',
+            style: TextStyle(
+              fontSize: 30,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
 }
