@@ -36,6 +36,9 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Recreate Android
+        run: flutter create --platforms=android .
+      
       # 5. Build the Android APK
       - name: Build APK
         run: flutter build apk --release
