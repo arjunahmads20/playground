@@ -1,4 +1,4 @@
-name: Flutter Build
+name: Flutter Build 2
 
 # This workflow triggers on every push to the 'main' branch
 on:
