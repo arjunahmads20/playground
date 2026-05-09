@@ -81,7 +81,7 @@ class _MyApp11_1State extends State<MyApp11_1> {
             ),
 
             // Perubahan dari tutorial_11_2
-            MyApp_11_2(),
+            MyApp11_2(),
 
             // ==========================================
             // HALAMAN 3 (INDEX 2): PROFILE
