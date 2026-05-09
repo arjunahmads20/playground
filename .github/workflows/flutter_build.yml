@@ -42,7 +42,7 @@ jobs:
       # 5. Build the Android APK
       - name: Build APK
         # run: flutter build apk --release
-        run: flutter build apk -t lib/app_start.dart --release
+        run: flutter build apk -t lib/tutorial_11_2.dart --release
 
       # 6. Upload the generated APK as an artifact
       - name: Upload Artifact
