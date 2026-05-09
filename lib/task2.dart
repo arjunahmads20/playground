@@ -65,7 +65,7 @@ void main() {
                       return Container(
                         height: 50,
                         color: Colors.amber[colorCodes[index]],
-                        child: Colimn(children: [Text('${entries[index]}'), Text('Deadline: ${entries_deadline[index]}')]),
+                        child: Column(children: [Text('${entries[index]}'), Text('Deadline: ${entries_deadline[index]}')]),
                       );
                     }
                 ),
