@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'tutorial_11_2.dart';
 
-void main() {
-  runApp(const MyApp11_1());
-}
-
 class MyApp11_1 extends StatefulWidget {
   const MyApp11_1({super.key});
 
